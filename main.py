@@ -1,9 +1,11 @@
 import streamlit as st
 
+st.set_page_config(layout="wide")
+
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/photo.png")
+    st.image("images/photo.png", width=500)
 
 with col2:
     st.title("Elias (Ilya) Brovashov")
@@ -13,4 +15,4 @@ with col2:
     Peers view me as a trusted consultant and solution architect, proficient in bridging gaps between stakeholders and translating visionary concepts into tangible solutions. 
     I pride myself on establishing ambitious benchmarks, steering projects with unwavering integrity, and exhibiting expertise in the Cloud, AI, and Cybersecurity.
 """
-    st.write(content)
+    st.info(content)
