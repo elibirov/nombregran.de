@@ -16,3 +16,9 @@ with col2:
     I pride myself on establishing ambitious benchmarks, steering projects with unwavering integrity, and exhibiting expertise in the Cloud, AI, and Cybersecurity.
 """
     st.info(content)
+
+content2 = """
+    Below you can see some examples of my apps that I have built with Python.
+"""
+
+st.write(content2)
